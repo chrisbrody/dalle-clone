@@ -18,8 +18,7 @@ app.use('/api/v1/dalle', dalleRoutes)
 // Routes
 app.get('/', async (req, res) => {
     res.send({
-        "message": "Hello from DALL-E",
-        "key": process.env.MONGODB_URL
+        "message": "Hello from DALL-E"
     })
 })
 
